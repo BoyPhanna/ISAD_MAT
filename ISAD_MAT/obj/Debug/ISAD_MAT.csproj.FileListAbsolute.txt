@@ -1,0 +1,13 @@
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\bin\Debug\ISAD_MAT.exe.config
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\bin\Debug\ISAD_MAT.exe
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\bin\Debug\ISAD_MAT.pdb
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.csproj.AssemblyReference.cache
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.csproj.SuggestedBindingRedirects.cache
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.FrmProduct.resources
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.Properties.Resources.resources
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.csproj.GenerateResource.cache
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.csproj.CoreCompileInputs.cache
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.exe
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.pdb
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.FrmStuff.resources
+D:\RUPP\C#\ISAD_MAT\ISAD_MAT\obj\Debug\ISAD_MAT.Form1.resources
