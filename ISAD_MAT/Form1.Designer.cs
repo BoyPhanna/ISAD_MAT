@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.Stuff = new System.Windows.Forms.ToolStripMenuItem();
             this.Product = new System.Windows.Forms.ToolStripMenuItem();
+            this.Supplier = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -39,7 +40,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Stuff,
-            this.Product});
+            this.Product,
+            this.Supplier});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1311, 28);
@@ -59,6 +61,13 @@
             this.Product.Size = new System.Drawing.Size(61, 24);
             this.Product.Text = "ទំនិញ";
             this.Product.Click += new System.EventHandler(this.Product_Click);
+            // 
+            // Supplier
+            // 
+            this.Supplier.Name = "Supplier";
+            this.Supplier.Size = new System.Drawing.Size(99, 24);
+            this.Supplier.Text = "អ្នកផ្គត់ផ្គង់";
+            this.Supplier.Click += new System.EventHandler(this.Supplier_Click);
             // 
             // Form1
             // 
@@ -83,6 +92,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem Stuff;
         private System.Windows.Forms.ToolStripMenuItem Product;
+        private System.Windows.Forms.ToolStripMenuItem Supplier;
     }
 }
 

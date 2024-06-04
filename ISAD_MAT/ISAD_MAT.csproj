@@ -64,6 +64,12 @@
     <Compile Include="FrmStuff.Designer.cs">
       <DependentUpon>FrmStuff.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSuppliercs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSuppliercs.Designer.cs">
+      <DependentUpon>FrmSuppliercs.cs</DependentUpon>
+    </Compile>
     <Compile Include="MatDatabase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmStuff.resx">
       <DependentUpon>FrmStuff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSuppliercs.resx">
+      <DependentUpon>FrmSuppliercs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -41,5 +41,13 @@ namespace ISAD_MAT
             f.WindowState = FormWindowState.Maximized;
             f.Show();
         }
+
+        private void Supplier_Click(object sender, EventArgs e)
+        {
+            FrmSuppliercs f = new FrmSuppliercs();
+            f.MdiParent = this;
+            f.WindowState = FormWindowState.Maximized;
+            f.Show();
+        }
     }
 }
