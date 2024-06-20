@@ -53,17 +53,17 @@
             this.gridProducts.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.gridProducts.RowTemplate.Height = 24;
             this.gridProducts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridProducts.Size = new System.Drawing.Size(512, 298);
+            this.gridProducts.Size = new System.Drawing.Size(442, 144);
             this.gridProducts.TabIndex = 0;
             this.gridProducts.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridProducts_CellClick);
             // 
             // txbProname
             // 
-            this.txbProname.Location = new System.Drawing.Point(670, 152);
+            this.txbProname.Location = new System.Drawing.Point(588, 152);
             this.txbProname.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txbProname.Multiline = true;
             this.txbProname.Name = "txbProname";
-            this.txbProname.Size = new System.Drawing.Size(138, 52);
+            this.txbProname.Size = new System.Drawing.Size(220, 31);
             this.txbProname.TabIndex = 1;
             this.txbProname.TextChanged += new System.EventHandler(this.txbProname_TextChanged);
             // 
@@ -71,7 +71,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Khmer OS Moul Light", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(58, 54);
+            this.label1.Location = new System.Drawing.Point(263, 25);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(274, 62);
             this.label1.TabIndex = 2;
@@ -80,8 +80,9 @@
             // lbId
             // 
             this.lbId.AutoSize = true;
+            this.lbId.BackColor = System.Drawing.Color.Azure;
             this.lbId.Font = new System.Drawing.Font("Khmer OS Siemreap", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbId.Location = new System.Drawing.Point(590, 152);
+            this.lbId.Location = new System.Drawing.Point(503, 150);
             this.lbId.Name = "lbId";
             this.lbId.Size = new System.Drawing.Size(24, 31);
             this.lbId.TabIndex = 3;
@@ -92,7 +93,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Khmer OS Moul Light", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(580, 128);
+            this.label2.Location = new System.Drawing.Point(495, 124);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 24);
             this.label2.TabIndex = 4;
@@ -103,7 +104,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Khmer OS Moul Light", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(666, 124);
+            this.label3.Location = new System.Drawing.Point(584, 124);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 24);
             this.label3.TabIndex = 5;
@@ -122,23 +123,25 @@
             // 
             // btnDelete
             // 
+            this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnDelete.Location = new System.Drawing.Point(641, 240);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 34);
             this.btnDelete.TabIndex = 6;
             this.btnDelete.Text = "លុប";
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Visible = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnReject
             // 
+            this.btnReject.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnReject.Location = new System.Drawing.Point(560, 240);
             this.btnReject.Name = "btnReject";
             this.btnReject.Size = new System.Drawing.Size(75, 34);
             this.btnReject.TabIndex = 6;
             this.btnReject.Text = "បដិសេដ";
-            this.btnReject.UseVisualStyleBackColor = true;
+            this.btnReject.UseVisualStyleBackColor = false;
             this.btnReject.Visible = false;
             this.btnReject.Click += new System.EventHandler(this.btnReject_Click);
             // 
@@ -146,7 +149,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(820, 788);
+            this.BackColor = System.Drawing.Color.Cyan;
+            this.ClientSize = new System.Drawing.Size(820, 437);
             this.Controls.Add(this.btnReject);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAddORSave);

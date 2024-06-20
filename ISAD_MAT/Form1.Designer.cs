@@ -44,39 +44,46 @@
             this.Supplier});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1311, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(1086, 34);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // Stuff
             // 
+            this.Stuff.Font = new System.Drawing.Font("Khmer OS Battambang", 7.8F);
             this.Stuff.Name = "Stuff";
-            this.Stuff.Size = new System.Drawing.Size(76, 24);
+            this.Stuff.Size = new System.Drawing.Size(64, 28);
             this.Stuff.Text = "បុគ្គលិក";
             this.Stuff.Click += new System.EventHandler(this.Stuff_Click);
             // 
             // Product
             // 
+            this.Product.Font = new System.Drawing.Font("Khmer OS Battambang", 7.8F);
             this.Product.Name = "Product";
-            this.Product.Size = new System.Drawing.Size(61, 24);
+            this.Product.Size = new System.Drawing.Size(55, 28);
             this.Product.Text = "ទំនិញ";
             this.Product.Click += new System.EventHandler(this.Product_Click);
             // 
             // Supplier
             // 
+            this.Supplier.Font = new System.Drawing.Font("Khmer OS Battambang", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Supplier.Name = "Supplier";
-            this.Supplier.Size = new System.Drawing.Size(99, 24);
+            this.Supplier.Size = new System.Drawing.Size(78, 28);
             this.Supplier.Text = "អ្នកផ្គត់ផ្គង់";
             this.Supplier.Click += new System.EventHandler(this.Supplier_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1311, 735);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1086, 951);
             this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Khmer OS Siemreap", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
